@@ -1,0 +1,77 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: 20px;
+  color: black; }
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center; }
+
+th {
+  background-color: lightgray; }
+
+img {
+  width: 300px;
+  height: 100px; }
+
+h5 {
+  text-align: center;
+  font-size: 18px; }
+
+h3 {
+  margin-left: 20px;
+  font-size: 22px; }
+
+ol {
+  font-size: 18px; }
+  ol span {
+    font-weight: bold;
+    margin-left: -20px; }
+
+button a {
+  color: black; }
+
+button:hover {
+  background-color: red; }
+
+h1 + p {
+  text-align: center;
+  font-size: 22px; }
+
+#website_heading {
+  text-align: center;
+  font-weight: bold; }
+
+.nude {
+  color: #ea8864; }
+
+.purple {
+  color: #70028c; }
+
+.red {
+  color: #e21818; }
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "comparison and seclection of lipsticks"; }
+
+  #subheading::before {
+    content: "This website helps me to make decisions before consuming."; } }
+@media (max-width: 499px) {
+  h1::before {
+    content: "lipsticks"; }
+
+  #subheading::before {
+    content: "try not to consume"; } }
+.company, .price, .link {
+  font-size: 18px; }
+
+.company {
+  color: black; }
+
+.price {
+  color: red; }
+
+/*# sourceMappingURL=stylesc.css.map */
